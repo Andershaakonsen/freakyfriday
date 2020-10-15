@@ -1,0 +1,115 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0;
+  margin: 0;
+}
+.jumbotron {
+  background-color: #33456f;
+  border-bottom: solid 10px black;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  color: inherit;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #1B2F33;
+  border-bottom: solid 7px black;
+}
+.jumbotron .h1,
+.jumbotron h1 {
+  color: #e21d1f;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  margin: 0.67em 0;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 63px;
+  color: #e21d1f;
+}
+
+.jumbotron p{
+  margin: 0;
+  font-size: 1.1rem;
+
+
+}
+ p {
+  margin: 20px 10px;
+  color: white;
+
+}
+
+span {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right, #f0f0f0, #8f8f8f, #f0f0f0);
+  margin: 30px 0;
+}
+
+/* .description {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  color: #e21d1f;
+} */
+h2 {
+  margin-bottom: 20px;
+  color: #e21d1f;
+}
+
+.thumbnail {
+  height: 50%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: border 0.2s ease-in-out;
+  height: 100%;
+
+}
+
+.thumbnail img {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  -webkit-box-direction: normal;
+  line-height: 1.42857143;
+  box-sizing: border-box;
+  border: 0;
+  vertical-align: middle;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+  
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
